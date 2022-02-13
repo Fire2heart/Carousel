@@ -1,0 +1,39 @@
+{
+  "name": "tree-gallery",
+  "version": "1.0.0",
+  "description": "## Task",
+  "main": ".eslintrc.js",
+  "jest": {
+    "verbose": true
+  },
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/anastasiia.bardyuzha/courses_task-gallery-dom"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.16.7",
+    "@babel/plugin-transform-spread": "^7.16.7",
+    "eslint": "^8.8.0",
+    "jest": "^27.4.7"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "axios": "^0.24.0",
+    "babel-jest": "^27.4.6",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2020": "^1.0.2",
+    "jest-mock-axios": "^4.5.0"
+  }
+}

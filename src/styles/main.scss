@@ -1,0 +1,49 @@
+@import "utils";
+@import "fonts";
+@import "typography";
+
+$width: 1080px;
+$height: 600px;
+
+#carousel {
+  width:$width;
+  height: $height;
+  border: solid;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slide {
+  width:$width;
+  height: $height;
+  position: absolute;
+  left: 0;
+  right: 0;
+  transition: all ease 1s;
+}
+
+.button {
+  border: solid;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: wheat;
+}
+
+.button-text {
+  display: flex;
+  font-size: 30px;
+}
+
+#carousel {
+  overflow: hidden;
+}
