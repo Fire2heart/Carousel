@@ -20,7 +20,7 @@ const drawImg = () => {
     else step++;
 
     offset = 1;
-}
+};
 
 const swipe = (event) => {
     buttons.forEach(button => {
@@ -29,7 +29,7 @@ const swipe = (event) => {
     const slidesOnPage = document.querySelectorAll('.slide');
     let offsetOnPage = 0;
     slidesOnPage.forEach(slide => {
-        console.log(event.target)
+        console.log(event.target);
         slide.style.left = offsetOnPage*width - width + 'px'; //if
         offsetOnPage++;
     });
@@ -41,7 +41,7 @@ const swipe = (event) => {
             button.addEventListener('click', swipe);
         });
     }, 1000);
-}
+};
 
 const buttons = document.querySelectorAll('.button');
 
